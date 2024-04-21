@@ -6,8 +6,8 @@ import LayoutPage from '../pages/LayoutPage';
 const AppRoutes = () => {
   return (
     <Routes>
-    <Route path='/' element={<LoginPage/>}/>
-    <Route path='app/*' element={<LayoutPage/>}/>
+    {/* <Route path='/' element={<LoginPage/>}/> */}
+    <Route path='/*' element={<LayoutPage/>}/>
 </Routes>
   )
 }
